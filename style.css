@@ -1,0 +1,375 @@
+.header-top{
+    background:#103178;
+    padding: 10px;
+    text-align: center;
+    color: #ffc800;
+    font-size: 18px;
+}
+
+.header-main .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+    justify-items: center;
+}
+.header-main .inner-logo{
+  height: 48px;
+  width: auto;
+  margin-right: 10px;
+
+}
+.header-main{
+    background: #fff;
+}
+
+.header-main .inner-logo span{
+    font-size: 22px;
+    font-weight: 600px;
+}
+.header-main .inner-logo a{
+    color: var(--color-one);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.header-main .inner-logo a img{
+    height: 60px;
+}
+.header-main .inner-contact{
+    color: var(--color-text);
+    font-size: 20px;
+}
+.header-main .inner-menu ul{
+    display: flex;
+    margin:0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.header-main .inner-menu ul li{
+    margin-left: 30px;
+}
+.header-main .inner-menu ul li a{
+    color: var(--color-text);
+    font-size: 18px;
+}
+.header-main .inner-social ul li{
+    list-style-type: none;
+}
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+    z-index: 1000;
+    width: 100%;
+
+}
+.header-main .inner-menu ul li a:hover{
+    color: #68aef9;
+    transition: all 0.6s;
+
+}
+.section-one .container .inner-wrap{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items:center ;
+    justify-items: center;
+    padding: 20px;
+
+}
+ .section-one {
+    background: #F0F2F5;
+ 
+}
+.section-one .container .inner-wrap .inner-if .inner-title h1{
+    margin: 0;
+}
+.section-one .container .inner-wrap .inner-if .inner-title h2{
+    margin: 0;
+    margin-bottom: 20px
+}
+.section-one .container .inner-wrap .inner-if .inner-title{
+    font-size: 25px;
+    color: var(--color-one)
+}
+.section-one .container .inner-wrap .inner-if .inner-pr{
+    display: flex;
+    color: var(--color-text);
+    justify-content: space-between;
+    margin: 20px 0px;
+    margin-right: 170px;
+}
+.section-one .container .inner-wrap .inner-if .inner-pr p{
+    margin-right: 35px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+.section-one .container .inner-wrap .inner-if {
+    margin:0 30px;
+    width: 50%;
+}
+.section-one .container .inner-wrap .inner-if .buton{
+    color: #fff;
+    background: var(--color-two);
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 26px;
+    border-color: #ffc800;
+    width: fit-content;
+    display: flex;
+    border-color: var(--color-two);
+    border-style: solid;
+}
+.section-one .container .inner-wrap .inner-if a .arrow{
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+    margin-left: 10px;
+    color: var(--color-two);
+}
+.section-one .container .inner-wrap .inner-if a{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    box-sizing: content-box;
+    
+}
+.section-one .container .inner-wrap .inner-if a .buton:hover{
+    background: #fff;
+    color: var(--color-two);
+    border-color: var(--color-two);
+    transition: all 0.3s;
+    .arrow{
+        display: block;
+    }
+    
+
+    
+
+}
+.section-one .container .inner-wrap .inner-sale img{
+    /* position: absolute; */
+    width: 100%;
+}
+.section-one .container .inner-wrap .inner-sale{
+    width: 50%;
+    position: relative;
+    margin: 0;
+}
+.section-one .container .inner-wrap .inner-sale .inner-price{
+    position: absolute;
+    top: 0;
+    right: 150px;
+    padding: 30px;
+    background: var(--color-two);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--color-one);
+    text-align: center;
+}
+.section-one .container .inner-wrap .inner-sale .only
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.section-two .container {
+
+    margin-top:70px ;
+    overflow: hidden;
+   
+}
+.section-two .container{
+    display: flex;
+}
+.section-two .container .inner-introduce{
+    height: 300px;
+    width: calc(100% / 3 - 32px);
+    position: relative;
+    margin: 0 16px 0 16px;
+    /* overflow: hidden; */
+    
+}
+.section-two .container .inner-introduce2{
+    height: 300px;
+    width: calc(100% / 3 - 32px);
+    position: relative;
+    margin: 0 16px 0 16px;
+    /* overflow: hidden; */
+    
+}
+.section-two .container .inner-introduce3{
+    height: 300px;
+    width: calc(100% / 3 - 32px);
+    position: relative;
+    margin: 0 16px 0 16px;
+    /* overflow: hidden; */
+    
+}
+.section-two .container .inner-introduce .inner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.section-two .container .inner-introduce2 .inner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.section-two .container .inner-introduce2 .inner-content{
+    position: relative;
+    font-size: 40px;
+    color: var(--color-one);
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.section-two .container .inner-introduce2 .inner-discount{
+    position: relative;
+    font-size: 60px;
+    color: var(--color-two);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-two .container .inner-introduce3 .inner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.section-two .container .inner-introduce3 .inner-content{
+    position: relative;
+    font-size: 40px;
+    color: var(--color-one);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+.section-two .container .inner-introduce3 .inner-np{
+    position: relative;
+    font-size: 50px;
+    color: var(--color-two);
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.section-two .container .inner-introduce3 .inner-op{
+    position: relative;
+    font-size: 30px;
+    color:var(--color-text) ;
+    text-decoration: line-through;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+.section-two .container .inner-introduce .inner-img img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-two .container .inner-introduce:hover{
+    img{
+        scale: 1.1;
+        transition: all 0.7s;
+    }
+   
+}
+.section-two .container .inner-introduce2:hover{
+    img{
+        scale: 1.1;
+        transition: all 0.7s;
+    }
+   
+}
+.section-two .container .inner-introduce3:hover{
+    img{
+        scale: 1.1;
+        transition: all 0.7s;
+    }
+   
+}
+.section-two .container .inner-introduce2 .inner-img img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-two .container .inner-introduce3 .inner-img img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-two .container .inner-introduce  .inner-tag{
+    background:#13A05D ;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border-radius: 27px;
+    margin-top: 30px;
+    width: fit-content;
+    margin-left: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.section-two .container .inner-introduce  .inner-h{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+  .buton-two{
+    width: fit-content;
+    background:var(--color-one);
+    position: relative;
+    color:#fff ;
+    font-size: 26px;
+    padding:10px 30px ;
+    border-radius: 26px;
+    margin-left: 30px;
+    /* margin-top:20px; */
+    margin-bottom: 30px;
+    border-style: solid ;
+    border-color: var(--color-one);
+
+}
+.buton-two:hover{
+    background: #fff;
+    color: var(--color-one);
+    border-color: var(--color-one);
+    border-style: solid ;
+
+}
+.section-two .container .inner-introduce a{
+    box-sizing: content-box;
+}
+.section-two .container{
+    padding-bottom: 60px;
+}
+.section-3{
+    background:#f0f2f5;
+}
+.section-3 .container{
+    text-align: center;
+}
+.section-3 .container .inner-title h1{
+    color: var(--color-one);
+    font-size: 50px;
+    padding-top: 20px;
+}
+.section-3 .container .inner-title p{
+    color: var(--color-text);
+    font-size: 30px;
+}
+.section-3 .container .inner-uses{
+    display:flex ;
+}
